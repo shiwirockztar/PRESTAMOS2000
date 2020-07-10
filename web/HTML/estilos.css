@@ -1,0 +1,121 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	width: 100%;
+	font-family: 'lato',serif;
+}
+
+h2{
+	font-size: 32px;
+	font-weight: 300;
+}
+/*----------  header  ----------*/
+
+.parallax{
+	width: 100%;
+	height: 100vh;
+	background-image: url("hero.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+@font-face{
+	src:url(Bertrade.ttf);
+	font-family:  Ber;
+}
+.nombre{
+	font-family:  Ber;
+	font-size: 21px;
+	background: black;
+	padding: 3px;
+	width: 259px;
+	text-align: center;
+	color: white;
+}
+
+/*----------  Fin header  ----------*/
+/*---------------------------------------------------------------------------------------------------------*/
+/*----------  Descripcion  ----------*/
+.descripcion{max-width: 1100px;width: 90%;overflow: hidden;margin: auto;} 
+             .espacio{ padding: 30px 0 60px 0;}
+             .espacio h2{text-align: center;padding: 30px;}
+             .espacio p{text-align: justify;}
+
+/*----------  Fin Descripcion ----------*/
+/*---------------------------------------------------------------------------------------------------------*/
+/*----------  MID ----------*/
+.center{
+	width: 100%;
+	height: 100vh;
+	background-image: url("fondo2.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}.center div{
+	/*background: black;
+	font-size: 21px;
+	padding: 3px;
+	width: 259px;
+	text-align: center;
+	*/
+}.center h2{color: white;}
+/*----------  Fin MID ----------*/
+/*---------------------------------------------------------------------------------------------------------*/
+/*----------  Comerciales ----------*/
+.comm{
+    background: #ccc;
+    height:190px;
+}
+
+.comm h2{
+    text-align: center;
+    color: #000;
+    display: flex;
+    height:inherit;
+    justify-content: center;
+    align-items: center;
+}
+/*----------  Fin Comerciales ----------*/
+/*---------------------------------------------------------------------------------------------------------*/
+/*----------  Comerciales espacio ----------*/
+.comn {max-width: 1100px;width: 90%;overflow: hidden;margin: auto;} 
+             .espacio{ padding: 30px 0 60px 0;}
+/*----------  Fin espacio ----------*/       
+
+
+.fin{	
+	width: 100%;
+	height: 100vh;
+	background-image: url("fondo1.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;}
+
+	.fin div{
+	width: 100%;
+	height: 100vh;
+	background-image: url("transp.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+	}     
