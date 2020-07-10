@@ -4,7 +4,7 @@
 			<i class="fas fa-user-circle fa-5x"></i>
 		</p>
 		<p class="text-center">
-			Inicia sesión con tu cuenta
+			HOLA Inicia sesión con tu cuenta
 		</p>
 			<!-- action="< ?php echo SERVERURL; ?>ajax/loginAjax.php"  -->
 		<form action="" method="POST" autocomplete="off" >
